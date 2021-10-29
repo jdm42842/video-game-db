@@ -1,17 +1,10 @@
-<div class="search container">
-<<<<<<< HEAD
-    <form class="search-form" #form="ngForm"(ngSubmit)="onSubmit(form)">
-=======
-    <form class="search-form">
->>>>>>> 5df23eff489521302792f4984b49410d984fc9ad
-        <span class="logo" routerLink="/">NgVGDB</span>
-        <input
-            class="search-input"
-            name="search"
-            ngModel
-            placeholder="Search 500,000 games"
-        />
-        <button class="search-button">Search</button>
-    </form>
+<div class="search-container">
+  <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo" routerLink="/">NgVGDB</span>
+    <input class="search-input"
+           name="search"
+           ngModel
+           placeholder="Search 500,000+ games" />
+    <button class="search-button">Search</button>
+  </form>
 </div>
-
